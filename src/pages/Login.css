@@ -1,0 +1,11 @@
+.background {
+    background-color : #f5f4f4;
+}
+
+.cup {
+    height : 150px;
+    width : 150px;
+    display : block;
+    margin : auto;
+    margin-top : 100px;
+}
