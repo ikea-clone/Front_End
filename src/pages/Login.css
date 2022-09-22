@@ -36,6 +36,7 @@
     color : white;
     border-width: 0;
     border-radius: 3px;
+    cursor : pointer;
 }
 
 .account {
@@ -45,5 +46,6 @@
     border-color: gray;
     border-radius: 3px;
     border-width: 0.3px;
+    cursor : pointer;
 }
 

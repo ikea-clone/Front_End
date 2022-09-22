@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Login.css';
 import Cup from "../img/cup.png";
+import {Link} from "react-router-dom";
 
 const Login = () => {
     let [id, setId] = useState('');
@@ -44,9 +45,11 @@ const Login = () => {
                     <text>로그인</text>
                 </button>
                 <br />
-                <button className="account">
-                    <text>계정 생성</text>
-                </button>
+                <Link to = "/Signup">
+                    <button className="account">
+                        <text>계정 생성</text>
+                    </button>
+                </Link>
             </div>
         </div>
     );
