@@ -6,6 +6,10 @@ const Login = () => {
     let [id, setId] = useState('');
     let [pw, setPw] = useState('');
 
+    function handleClick(e) {
+        window.location.replace("s")
+    }
+
     return (
         <div className="background">
             <img className='cup' src={Cup}/>
@@ -28,7 +32,6 @@ const Login = () => {
                         className="ilogin"
                     />
                 </div>
-                <br />
                 <div className="password">
                     <input
                         type="password"
@@ -37,6 +40,13 @@ const Login = () => {
                         className="ilogin"
                     />
                 </div>
+                <button className="loginbn">
+                    <text>로그인</text>
+                </button>
+                <br />
+                <button className="account">
+                    <text>계정 생성</text>
+                </button>
             </div>
         </div>
     );

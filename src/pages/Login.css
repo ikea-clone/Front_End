@@ -20,8 +20,30 @@
     width : 300px;
     height : 25px;
     color : gray;
+    margin-top : 20px;
+    padding : 5px 5px;
 }
 
 .put {
     text-align: center;
 }
+
+.loginbn {
+    width : 310px;
+    height : 27px;
+    margin-top: 20px;
+    background-color: #1AB394;
+    color : white;
+    border-width: 0;
+    border-radius: 3px;
+}
+
+.account {
+    width : 310px;
+    height : 27px;
+    margin-top : 20px;
+    border-color: gray;
+    border-radius: 3px;
+    border-width: 0.3px;
+}
+
