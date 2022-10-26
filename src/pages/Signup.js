@@ -9,7 +9,7 @@ const Signup = () => {
     let [id, setId] = useState('');
     let [pw, setPw] = useState('');
     function main(){
-        alert('로그인에 성공하셨습니다!')
+        alert('로그인에 성공하셨습니다!');
         nav('/');
     }
     function logins() {
