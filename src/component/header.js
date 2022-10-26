@@ -9,7 +9,9 @@ const header = () => {
             <Link to="/">
                 <img className='logo' src={Logo} />
             </Link>
-            <text className='worldcup' >이상형 월드컵</text>
+            <Link to="/">
+                <text className='worldcup' >이상형 월드컵</text>
+            </Link>
             <text className='make'>이상형 월드컵 만들기</text>
             <Link to="Login">
                 <text className='login'>Login</text>

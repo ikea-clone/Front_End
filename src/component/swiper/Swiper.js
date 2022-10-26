@@ -8,11 +8,15 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./Swiper.css";
-
+import { useNavigate } from "react-router-dom";
 // import required modules
 import { Keyboard, EffectCoverflow, EffectFade, Autoplay, Navigation } from "swiper";
 
 export default function App() {
+    const nav = useNavigate();
+    function wow(){
+        nav('/games');
+    }
     return (
         <div className="max-swiper">
             <div className="swipe-con">
@@ -56,7 +60,7 @@ export default function App() {
                         <img src="top4.png" alt="4" />
                         <div className="titles">애니<br />월드컵</div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide onClick={wow}>
                         <img src="top5.png" alt="5" />
                         <div className="titles">2021 라면<br />월드컵</div>
                     </SwiperSlide>

@@ -39,6 +39,9 @@
     font-family: maplestory;
     font-size: 35px;
 }
+.titles:hover {
+    cursor: pointer;
+}
 .max-swiper {
     background: whitesmoke;
     width: 100%;
